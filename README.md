@@ -20,5 +20,5 @@ This project translates **Qiskit quantum circuits** into **QuEra Bloqade pulse s
 - Building a **web-based interactive tool** for translation.
 
 ## Contact:
-Email: saka4332@colorado.edu
+Email: saka4331@colorado.edu
 Linkedin: https://www.linkedin.com/in/mohitraosatya/
