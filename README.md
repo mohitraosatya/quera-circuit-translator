@@ -18,3 +18,7 @@ This project translates **Qiskit quantum circuits** into **QuEra Bloqade pulse s
 - Expanding support for **more quantum gates**.
 - Running Bloqade simulations on **QuEra's cloud**.
 - Building a **web-based interactive tool** for translation.
+
+## Contact:
+Email: saka4332@colorado.edu
+Linkedin: https://www.linkedin.com/in/mohitraosatya/
