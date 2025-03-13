@@ -1,23 +1,28 @@
-# Quantum Circuit to QuEra Bloqade Translator
+# Qiskit-to-QuEra: Optimized Circuit Mapping for Neutral-Atom Quantum Computing
 
 ## Overview
-This project translates **Qiskit quantum circuits** into **QuEra Bloqade pulse sequences**, enabling execution on **neutral-atom quantum computers**.
+This project **translates Qiskit quantum circuits into QuEra Bloqade pulse sequences**, enabling execution on **neutral-atom quantum computers**.  
+Additionally, it **automatically optimizes qubit-to-atom mapping**, reducing manual layout adjustments and improving execution efficiency.
 
 ## Features
-- Converts **Hadamard, CNOT, and RZ gates** into Bloqade-compatible instructions.
-- Generates **Bloqade code** for quantum simulations.
-- Bridges the gap between **gate-based and analog quantum computing**.
+✅ **Converts Qiskit circuits (Hadamard, CNOT, RZ) into Bloqade instructions**  
+✅ **Optimizes qubit placement using force-directed graph layouts**  
+✅ **Generates Bloqade-compatible code for direct simulation**  
+✅ **Visualizes atom placement before execution**  
 
 ## How to Use
-1. Install dependencies: qiskit & bloqade
+1. Install dependencies:  
+   ```
+   !pip install qiskit bloqade matplotlib networkx
+   ```
 2. Define a Qiskit circuit.
-3. Run the provided Python script to generate Bloqade code.
-4. Execute the translated code on QuEra’s Bloqade emulator.
+3. Run the provided Python script to **optimize qubit placement** and **generate Bloqade code**.
+4. Execute the **translated Bloqade script** on QuEra’s simulator.
 
-## Future Improvements
-- Expanding support for **more quantum gates**.
-- Running Bloqade simulations on **QuEra's cloud**.
-- Building a **web-based interactive tool** for translation.
+## Next Steps
+ **Support additional gates (SWAP, Toffoli, etc.)**  
+ **Enhance placement optimization using ML techniques**  
+ **Integrate a web-based interactive circuit mapper**  
 
 ## Contact:
 Email: saka4331@colorado.edu
